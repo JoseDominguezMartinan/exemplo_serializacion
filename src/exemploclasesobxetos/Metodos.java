@@ -53,6 +53,7 @@ public class Metodos
             {
               Ordenador o=new Ordenador(new Cpu(enteiro("velocidade: "),enteiro("memoria: ")),new Pantalla(cadea("marca: "),decimais("pulgadas: ")),new Rato(cadea("tipo: ")));
               esc.writeObject(o);
+              
             }
         } catch(Exception e)
         {
