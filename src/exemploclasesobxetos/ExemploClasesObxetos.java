@@ -21,6 +21,7 @@ public class ExemploClasesObxetos
         
         Metodos obxfich=null;
         obxfich=new Metodos();
+        
         obxfich.escribirFicheiro("ordenadores.dat");         
             obxfich.lerFicheiro("ordenadores.dat");
             obxfich.engadeFicheiro("ordenadores.dat");
